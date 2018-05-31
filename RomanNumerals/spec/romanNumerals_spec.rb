@@ -6,4 +6,7 @@ describe RomanNumerals do
   it "should turn 5 into 'V'" do
     expect(RomanNumerals.romanize(5)).to eq 'V'
   end
+  it "should turn 10 into 'X'" do
+    expect(RomanNumerals.romanize(10)).to eq 'X'
+  end
 end
