@@ -1,0 +1,48 @@
+{
+  "RSpec": {
+    "coverage": {
+      "/Users/paola/Documents/improving_code/playgroundrepo/RomanNumerals/spec/romanNumerals_spec.rb": [
+        1,
+        1,
+        1,
+        1,
+        null,
+        1,
+        1,
+        null,
+        1,
+        1,
+        null,
+        1,
+        1,
+        null,
+        1,
+        1,
+        null,
+        1,
+        1,
+        null,
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/paola/Documents/improving_code/playgroundrepo/RomanNumerals/lib/romanNumerals.rb": [
+        1,
+        1,
+        null,
+        null,
+        null,
+        1,
+        7,
+        7,
+        107,
+        null,
+        7,
+        null,
+        null
+      ]
+    },
+    "timestamp": 1527802892
+  }
+}
