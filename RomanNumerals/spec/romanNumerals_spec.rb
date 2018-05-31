@@ -12,4 +12,7 @@ describe RomanNumerals do
   it "should turn 25 into 'XXV'" do
     expect(RomanNumerals.romanize(25)).to eq 'XXV'
   end
+  it "should turn 60 into 'LX'" do
+    expect(RomanNumerals.romanize(60)).to eq 'LX'
+  end
 end
