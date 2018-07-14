@@ -1,0 +1,17 @@
+{
+  "RSpec": {
+    "coverage": {
+      "/Users/paola/Documents/practisingRUBY/playgroundrepo/fizzbuzz/spec/fizzbuzz_spec.rb": [
+        1,
+        1,
+        1,
+        null
+      ],
+      "/Users/paola/Documents/practisingRUBY/playgroundrepo/fizzbuzz/lib/fizzbuzz.rb": [
+        1,
+        null
+      ]
+    },
+    "timestamp": 1531588942
+  }
+}
