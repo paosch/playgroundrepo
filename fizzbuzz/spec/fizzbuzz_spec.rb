@@ -12,4 +12,7 @@ describe 'fizzbuzz' do
   it "returns the number passed when it's a multiple neither of 3, nor 5, nor 15" do
     expect(fizzbuzz(7)).to eq 7
   end
+  it "returns 'I only work with integers!' when passed something other than an integer" do
+    expect(fizzbuzz(true)).to eq 'I only work with integers!'
+  end
 end
