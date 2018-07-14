@@ -14,7 +14,7 @@
       <img src="./assets/0.10.2/loading.gif" alt="loading"/>
     </div>
     <div id="wrapper" style="display:none;">
-      <div class="timestamp">Generated <abbr class="timeago" title="2018-07-14T18:22:22+01:00">2018-07-14T18:22:22+01:00</abbr></div>
+      <div class="timestamp">Generated <abbr class="timeago" title="2018-07-14T18:42:38+01:00">2018-07-14T18:42:38+01:00</abbr></div>
       <ul class="group_tabs"></ul>
 
       <div id="content">
@@ -32,8 +32,8 @@
   <a name="AllFiles"></a>
   <div>
     <b>2</b> files in total.
-    <b>4</b> relevant lines. 
-    <span class="green"><b>4</b> lines covered</span> and
+    <b>7</b> relevant lines. 
+    <span class="green"><b>7</b> lines covered</span> and
     <span class="red"><b>0</b> lines missed </span>
   </div>
   <table class="file_list">
@@ -53,9 +53,9 @@
       <tr>
         <td class="strong"><a href="#137dcec36eca7e5f359f4daf54b3d3c970cb6b0a" class="src_link" title="lib/fizzbuzz.rb">lib/fizzbuzz.rb</a></td>
         <td class="green strong">100.0 %</td>
-        <td>2</td>
-        <td>1</td>
-        <td>1</td>
+        <td>5</td>
+        <td>3</td>
+        <td>3</td>
         <td>0</td>
         <td>1.0</td>
       </tr>
@@ -63,9 +63,9 @@
       <tr>
         <td class="strong"><a href="#8ff3ae89cda3acf844e01cd94884cd00fb3ae4dc" class="src_link" title="spec/fizzbuzz_spec.rb">spec/fizzbuzz_spec.rb</a></td>
         <td class="green strong">100.0 %</td>
+        <td>6</td>
         <td>4</td>
-        <td>3</td>
-        <td>3</td>
+        <td>4</td>
         <td>0</td>
         <td>1.0</td>
       </tr>
@@ -91,8 +91,8 @@
     <h3>lib/fizzbuzz.rb</h3>
     <h4><span class="green">100.0 %</span> covered</h4>
     <div>
-      <b>1</b> relevant lines. 
-      <span class="green"><b>1</b> lines covered</span> and
+      <b>3</b> relevant lines. 
+      <span class="green"><b>3</b> lines covered</span> and
       <span class="red"><b>0</b> lines missed.</span>
     </div>
   </div>
@@ -103,10 +103,28 @@
         <li class="covered" data-hits="1" data-linenumber="1">
           <span class="hits">1</span>
           
-          <code class="ruby">class Fizzbuzz</code>
+          <code class="ruby">def fizzbuzz(number)</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="2">
+        <li class="covered" data-hits="1" data-linenumber="2">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  if number % 3 == 0</code>
+        </li>
+      
+        <li class="covered" data-hits="1" data-linenumber="3">
+          <span class="hits">1</span>
+          
+          <code class="ruby">  &#39;Fizz&#39;</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="4">
+          
+          
+          <code class="ruby">  end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="5">
           
           
           <code class="ruby">end</code>
@@ -122,8 +140,8 @@
     <h3>spec/fizzbuzz_spec.rb</h3>
     <h4><span class="green">100.0 %</span> covered</h4>
     <div>
-      <b>3</b> relevant lines. 
-      <span class="green"><b>3</b> lines covered</span> and
+      <b>4</b> relevant lines. 
+      <span class="green"><b>4</b> lines covered</span> and
       <span class="red"><b>0</b> lines missed.</span>
     </div>
   </div>
@@ -140,16 +158,28 @@
         <li class="covered" data-hits="1" data-linenumber="2">
           <span class="hits">1</span>
           
-          <code class="ruby">require &#39;simplecov&#39;</code>
+          <code class="ruby">describe &#39;fizzbuzz&#39; do</code>
         </li>
       
         <li class="covered" data-hits="1" data-linenumber="3">
           <span class="hits">1</span>
           
-          <code class="ruby">describe Fizzbuzz do</code>
+          <code class="ruby">  it &quot;returns &#39;Fizz&#39; when passed a multiple of 3&quot; do</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="4">
+        <li class="covered" data-hits="1" data-linenumber="4">
+          <span class="hits">1</span>
+          
+          <code class="ruby">    expect(fizzbuzz(6)).to eq &#39;Fizz&#39;</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="5">
+          
+          
+          <code class="ruby">  end</code>
+        </li>
+      
+        <li class="never" data-hits="" data-linenumber="6">
           
           
           <code class="ruby">end</code>
